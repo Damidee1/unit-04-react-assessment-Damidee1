@@ -6,8 +6,8 @@ export default function About() {
       <h1>About</h1>
       <p>
         My name is Damilola, this media store react App was built as a part of
-        my assesment for my Blackcodher bootcamp.
-        <p>Have fun searching for your favourite music.</p>
+        my assesment for my Blackcodher bootcamp. Have fun searching for your
+        favourite music.
       </p>
     </>
   );

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Header(props) {
   return (
@@ -13,23 +14,22 @@ export default function Header(props) {
           alignItems: "center",
           listStyleType: "none",
         }}
-      >
-        <div>
-          <Link className="Link" to="/" id="homelink">
-            {" "}
-            <h3>Home</h3>
-          </Link>
-        </div>
-        <div>
-          <Link className="Link" to="/about" id="aboutlink">
-            <h3>About </h3>
-          </Link>
-        </div>
-        <div>
-          <Link className="Link" to="/basket" id="basketlink">
-            <h3>Basket:{props.itemCount}</h3>
-          </Link>
-        </div>
+      ></div>
+      <div>
+        <Link className="Link" to="/" id="homelink">
+          {" "}
+          <h3>Home</h3>
+        </Link>
+      </div>
+      <div>
+        <Link className="Link" to="/about" id="aboutlink">
+          <h3>About </h3>
+        </Link>
+      </div>
+      <div>
+        <Link className="Link" to="/basket" id="basketlink">
+          <h3>Basket:{props.itemCount}</h3>
+        </Link>
       </div>
     </div>
   );
