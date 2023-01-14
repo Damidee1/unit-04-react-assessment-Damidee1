@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./components/Header.js";
+import Header from "./components/Header";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import { useState, useEffect } from "react";
 import data from "./models/data.json";
 import ProductList from "./components/ProductList";
 import Search from "./components/Search";
 import BasketCount from "./components/BasketCount";
-import Casing from "./components/Casing.js";
-import Basket from "./components/Basket.js";
-import About from "./pages/about.js";
+import Casing from "./components/Casing";
+import Basket from "./components/Basket";
+import About from "./pages/About.js";
 
 function App() {
   const [products, setProducts] = useState(data);

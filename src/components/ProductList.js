@@ -9,7 +9,7 @@ const ProductList = ({ items, ...props }) => {
     <div>
       <h1 className="title">Music Suggestion for you.</h1>{" "}
       {!items || items.length === 0 ? (
-        <div className="empty">No music found, please try again...</div>
+        <div className="empty">No items found....</div>
       ) : (
         items.map((product) => (
           <div className="product" id="results" key={product.trackId}>

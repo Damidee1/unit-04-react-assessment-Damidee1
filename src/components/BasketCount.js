@@ -3,7 +3,7 @@ import React from "react";
 function BasketCount(props) {
   return (
     <div className="basket-count">
-      {props.basketCount} item{props.basketCount !== 1 ? "k" : ""}
+      {props.basketCount} item{props.basketCount !== 10 ? "k" : ""}
     </div>
   );
 }
