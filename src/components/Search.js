@@ -19,6 +19,7 @@ function Search(props) {
       <input
         className="searchInput"
         type="text"
+        autoFocus="autoFocus"
         value={props.term}
         onChange={handleChange}
         id="term"
